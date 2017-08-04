@@ -1,0 +1,38 @@
+{
+  "name": "party-component",
+  "version": "1.0.0",
+  "description": "party-component",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Helton Valentini",
+    "url": "https://github.com/heltonvalentini"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heltonvalentini/party-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heltonvalentini/party-component/issues"
+  },
+  "homepage": "https://github.com/heltonvalentini/party-component",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^3.0.0",
+    "electrode-archetype-react-component-dev": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 3"
+  },
+  "scripts": {
+    "prepublish": "clap prepublish",
+    "start": "clap demo",
+    "test": "clap check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
